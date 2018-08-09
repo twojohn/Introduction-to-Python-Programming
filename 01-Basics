@@ -1,0 +1,195 @@
+
+   2+3
+   >>> 5
+  
+   4 + 
+   >>> SyntaxError: invalid syntax
+
+Syntax: The rules that describe valid combinations of Python symbols.
+
+Semantics: The meaning of a combination of Python symbols.
+
+
+
+    4/0
+    >>> Traceback
+
+Question: 
+
+Select the expression(s) that result in a SyntaxError.
+
+-(8/(3/(2/3)))
+
+-6 +- 2 
+
+-4 **
+
+-5*(3+2)
+
+
+Memory address
+
+A variable is a named location in memory
+
+Python keeps track of variables in a separate area of memory from the values.
+
+A value has a memory address.
+
+A variable contains a memory address.
+
+A variable refers to a value.
+
+Variable shoe_size contains memory address x34.
+
+The value of shoe_size is 44.
+
+shoe_size refers to value 44.
+
+
+Consider this code: 
+
+    >>> a = 4
+    >>> b = 3.2
+    >>> a = 8
+
+Assume that value 4 has memory address x27 , value 3.2 has memory address x5, and value 8 has memory address x1. Which of the following is true after this code executed?
+
+a refers to value 4 and b refers to value 3.2
+
+a stores x27 and b contains x5.
+
+a contains memory address x1 and b contains memory address x5.
+
+
+Consider this code:
+
+    >>> z = 5
+    >>> y = z + 1
+    >>> z = 10
+
+After these statements execute, which of the following describes the value that z and y points to?
+
+z points to 5 and y points to 6
+
+z points to 10 and y points to 6
+
+z points to 10 and y points to 11
+
+
+Every programming language has a set of rules for what a legal name is. In Python, variable names must start with a letter or the underscore character and it can contain letters, numbers and underscores. Both uppercase and lowercase letters are allowed, badly formed variable names cause syntax errors. So for example, if we try to start a variable name with a number, we're told we can't. 
+
+Similarly, if we include a non-alphabet, non-underscore, non-numeric character in the variable name, Python will complain. 
+
+    come/closer
+
+Python is also case sensitive, so seconds_in_minute is perfectly valid variable name. 
+
+From any other combination of uppercase and lowercase characters. 
+
+
+    >>>seconds_in_minute = 50
+    >>>seconds_in_minute
+    >>>50
+    >>>seConds_IN_minute 
+    Traceback error
+
+Which of the following is not a legal variable name in Python?
+
+TRIANGLEAREA
+
+triangle_area
+
+triangle’s_area
+
+triangle_area2
+
+
+
+Assignment statements
+
+The general form of an assignment statement:
+
+    variable = expression
+
+Example assignment statements:
+
+    >>> base = 20
+    >>> height = 12
+    >>> area = base * height / 2
+    >>> area
+    120.0
+
+
+The rules for executing an assignment statement:
+
+1. Evaluate the expression. This produces a memory address.
+2. Store th+e memory address in the variable.
+Variable names
+
+The rules for legal Python names:
+
+1. Names must start with a letter or `_`.
+2. Names must contain only letters, digits, and `_`.
+
+For Python, in most situations, the convention is to use `pothole_case`.
+
+
+The names you use when creating these labels need to follow a few rules:
+
+    1. Names can not start with a number.
+    2. There can be no spaces in the name, use _ instead.
+    3. Can't use any of these symbols :'",<>/?|\()!@#$%^&*~-+
+    4. It's considered best practice (PEP8) that names are lowercase.
+    5. Avoid using the characters 'l' (lowercase letter el), 'O' (uppercase letter oh), 
+       or 'I' (uppercase letter eye) as single character variable names.
+    6. Avoid using words that have special meaning in Python like "list" and "str"
+    
+    
+
+
+
+--> Python visualizer
+
+
+    x = -10
+    y = abs(x)
+    x = 11
+
+(Reminder: built-in function abs returns the absolute value of a number)
+
+After the code above is executed, what value does y refer to?
+
+
+Python has several mathematical operators, like multiplication and subtraction, and we know that the mathematical operation multiplication is associated with an asterisk symbol. There are lots of other operations that we might want to do, with or without math, and not enough meaningful symbols to go around
+
+The Python built in function that we'll use for that is the Max function
+
+    >>>max(x,y,z)
+
+I use an open parenthesis. And notice the yellow pop up box. That's help that is intended to remind professional Python programmers what the function does. 
+
+
+
+
+    def function_call: 
+        body
+
+
+Instead of defining a function, we could use math module to calculate squareroot.
+
+    import math
+    math.sqrt(16)
+    >>>4
+
+
+
+Variable names
+The rules for legal Python names:
+
+
+1. Names must start with a letter or `_`.
+2. Names must contain only letters, digits, and `_`.
+
+For Python, in most situations, the convention is to use `pothole_case`.
+
+What is pothole case?
